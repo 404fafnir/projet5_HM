@@ -29,7 +29,38 @@
                     <li><a href="html/projet1.html">Projet 1</a></li>
                     <li><a href="html/projet2.html">Projet 2</a></li>
                     <li><a href="html/projet3.html">Projet 3</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#contact" class="modal-trigger">Contact</a>
+                        <div class="container">    
+                            <div class="modal" id="contact">
+                                <div class="modal-content">
+                                    <h3 class="black-text">Formulaire de Contact</h3>
+                                    <form>
+                                        <div class="row">
+                                            <div class="input-field col s6">
+                                                <input type="text" class="validate" id="first_name">
+                                                <label for="first_name">Prénom</label>
+                                            </div>
+                                            <div class="input-field col s6">
+                                                <input type="text" class="validate" id="last_name">
+                                                <label for="last_name">Nom de Famille</label>
+                                            </div>
+                                            <div class="input-field col s12">
+                                                <textarea id="textarea1" class="materialize-textarea"></textarea>
+                                                <label for="textarea1">Message</label>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                
+                                <div class="modal-footer">
+                                    <a href="#!" class="modal-close waves-effect waves-green btn">
+                                        <i class="material-icons left">send</i>
+                                        Envoyer
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </nav>
@@ -72,45 +103,9 @@
         </div>
 
         
-        
-        <!--Modale contacte-->
-
-        <div class="container center-align" id="contact">
-            <button class="btn modal-trigger waves-effect waves-light" data-target="modal1">Contact</button>
-            <div class="modal" id="modal1">
-                <div class="modal-content">
-                    <h3>Formulaire de Contact</h3>
-
-                    <form>
-                        <div class="row">
-                            <div class="input-field col s6">
-                                <input type="text" class="validate" id="first_name">
-                                <label for="first_name">Prénom</label>
-                            </div>
-                            <div class="input-field col s6">
-                                <input type="text" class="validate" id="last_name">
-                                <label for="last_name">Nom de Famille</label>
-                            </div>
-                            <div class="input-field col s12">
-                                <textarea id="textarea1" class="materialize-textarea"></textarea>
-                                <label for="textarea1">Message</label>
-                            </div>
-                        </div>
-                    </form>
-                    
-                </div>
-                <div class="modal-footer">
-                    <a href="#!" class="modal-close waves-effect waves-green btn">
-                        <i class="material-icons left">send</i>
-                        Envoyer
-                    </a>
-                </div>
-            </div>
-        </div>
-        
         <footer class="page-footer purple darken-2">
             <div class="container">
-                <div class="row">
+                <div class="row valign-wrapper">
                     <div class="col s6">
                         <h4>
                             Lorem ipsum 
@@ -118,24 +113,23 @@
 
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente praesentium minus nisi voluptate sunt sed magnam laudantium hic pariatur provident. Modi nihil minus maxime accusamus dignissimos voluptatum adipisci consectetur quia.</p>
                     </div>
-                    <div class="col s6 ">
-                        <div class="row">
-                            <a class="col s12 grey-text" href="">lien 1</a>
-                            <a class="col s12 grey-text" href="">lien 2</a>
-                            <a class="col s12 grey-text" href="">lien 3</a>
-                            <a class="col s12 grey-text" href="">lien 4</a>
+                    <div class="col s6">
+                        <div class="row center-align footericons">
+                            <i class="material-icons">chat</i>
+                            <i class="material-icons">call</i>
+                            <i class="material-icons">description</i>
+                            <i class="material-icons">edit</i>
                         </div>
                     </div>
                 </div>
             </div>
-            
             <div class="footer-copyright">
                 <div class="container">
                     © 2022 Copyright Max&Heiko
                 </div>
             </div>
         </footer>
-
+        <!--JS-->
        <script src="js/jquery.min.js" charset="utf-8"></script>
        <script type="text/javascript" src="js/materialize.min.js"></script>
        <script src="js/script.js" charset="utf-8"></script> 
