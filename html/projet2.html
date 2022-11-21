@@ -27,7 +27,7 @@
                     <li><a href="projet1.html">Projet 1</a></li>
                     <li><a href="projet2.html">Projet 2</a></li>
                     <li><a href="projet3.html">Projet 3</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#contact" class="modal-trigger">Contact</a></li>
                 </ul>
             </div>
         </nav>
@@ -37,7 +37,7 @@
             <li><a href="#projet1">Projet 1</a></li>
             <li><a href="#projet2">Projet 2</a></li>
             <li><a href="#projet3">Projet 3</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#contact" class="modal-trigger">Contact</a></li>
         </ul>
 
         <!--projet 1-->
@@ -68,6 +68,37 @@
                         <p class="col s6 black-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti doloribus facilis tempore quibusdam minus necessitatibus sit? Quaerat, labore? Nemo, voluptate quasi architecto odio repellendus tenetur culpa incidunt voluptatum? Sunt, dolores!</p>    
                     </div>
                 </a>
+            </div>
+        </div>
+
+        <div class="container">    
+            <div class="modal" id="contact">
+                <div class="modal-content">
+                    <h3 class="black-text">Formulaire de Contact</h3>
+                    <form>
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <input type="text" class="validate" id="first_name">
+                                <label for="first_name">Prénom</label>
+                            </div>
+                            <div class="input-field col s6">
+                                <input type="text" class="validate" id="last_name">
+                                <label for="last_name">Nom de Famille</label>
+                            </div>
+                            <div class="input-field col s12">
+                                <textarea id="textarea1" class="materialize-textarea"></textarea>
+                                <label for="textarea1">Message</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                
+                <div class="modal-footer">
+                    <a href="#!" class="modal-close waves-effect waves-green btn">
+                        <i class="material-icons left">send</i>
+                        Envoyer
+                    </a>
+                </div>
             </div>
         </div>
 
