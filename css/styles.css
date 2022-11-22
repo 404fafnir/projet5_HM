@@ -1,0 +1,9 @@
+/*.btn {
+    changer les btns du site !!
+    !important après une fonction css pour la faire passer en priorité
+}
+*/
+
+.iconsfo i {
+    font-size: 30px!important;
+}

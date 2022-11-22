@@ -7,4 +7,10 @@ $(document).ready(function(){
     $('.modal').modal();
 });
 
+/*
+setInterval(function(){
+    next();
+},3000);
+*/
 
+new WOW().init();
