@@ -5,5 +5,20 @@
 */
 
 .iconsfo i {
-    font-size: 30px!important;
+    font-size: 32px!important;
+}
+
+.foo {
+    padding: 0;
+}
+
+.imgw {
+    width: 100%;
+}
+
+.bor {
+    border-style: solid;
+    border-radius: 8px;
+    border-color: #7b1fa2;
+    border-width: 4px;
 }
