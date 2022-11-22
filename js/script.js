@@ -3,7 +3,14 @@ $(document).ready(function(){
     $('.parallax').parallax();
     $('.carousel').carousel();
     $('.carousel.carousel-slider').carousel({
-        fullWidth: true
+        fullWidth: true,
+        indicators: true
+    });
+    $('.next').click(function(){
+        $('.carousel').carousel('next');
+    });
+    $('.prev').click(function(){
+        $('.carousel').carousel('prev');
     });
     $('.modal').modal();
 });
