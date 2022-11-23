@@ -29,9 +29,11 @@ window.addEventListener('keypress',
         }
         if (typedword == theword){
             $('body').toggleClass('filter', true);
+            $('#rain').show()
         }
         if (typedword == thesecondword){
             $('body').toggleClass('filter', false);
+            $('#rain').hide()
         }
     }
 );

@@ -3,7 +3,11 @@
     !important après une fonction css pour la faire passer en priorité
 }
 */
-
+#rain{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
 
 .iconsfo i {
     font-size: 32px!important;
