@@ -17,6 +17,14 @@
     font-family: 'Saira Condensed', sans-serif;
 }
 
+.tinos {
+    font-family: 'Tinos', serif;
+}
+
+.lobster {
+    font-family: 'Lobster Two', cursive;
+}
+
 #rain{
     position: absolute;
     height: 100%;

@@ -67,7 +67,7 @@ function changeimage1(x,image){
         image.src = "../img/MaxenceFunny.jpg";
     }
     if(x==2){
-        image.src = "../img/Maxence.jpg";
+        image.src = "../img/Maxence.png";
     }
 }
 
