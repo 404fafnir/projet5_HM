@@ -10,13 +10,20 @@
         <!-- Materialize CSS -->
         <link rel="stylesheet" href="css/materialize.css">
         <link rel="stylesheet" href="css/styles.css">
+        <!--Animate CSS-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <!--Google Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed&display=swap" rel="stylesheet">
         <title>Max and Heiko</title>
     </head>
 
     <body>
         
-        <nav class="purple darken-2 navbar-fixed">
+        <nav class="purple darken-2 navbar-fixed saira">
             <div class="nav-wrapper container">
                 <a href="#" class="brand-logo hide-on-small-only">Max & Heiko</a>
                 <a href="#" class="brand-logo hide-on-med-and-up center-align">Max & Heiko</a>
@@ -34,7 +41,7 @@
             </div>
         </nav>
 
-        <ul class="sidenav" id="mobile-links">
+        <ul class="sidenav saira" id="mobile-links">
             <li><a href="#presentation">Présentation</a></li>
             <li><a href="#projet1">Projet 1</a></li>
             <li><a href="#projet2">Projet 2</a></li>
@@ -43,19 +50,22 @@
         </ul>
 
         <img hidden id="rain" src="img/rain.gif" alt="">
+
+        <img hidden id="animal" src="img/louttre.gif" alt="">
+
         <!--Présentation groupe-->
         <div class="container center-align" id="presentation">
-            <h1>Présentation</h1>
+            <h1 class="play">Présentation</h1>
             <div class="row">
                 <div class="col s6 bor">
-                    <h2>Maxence</h2>
-                    <img class="responsive-img" src="img/Maxence.jpg" alt="">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa maiores recusandae hic culpa unde incidunt assumenda alias eius fugit eum, non quo aperiam iste adipisci impedit facere, necessitatibus neque! Reprehenderit!</p>
+                    <h2 class="play">Maxence</h2>
+                    <img class="responsive-img" src="img/Maxence.jpg" alt="" onmouseover="changeimage1(1,this)" onmouseout="changeimage1(2,this)">
+                    <p class="josefin">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa maiores recusandae hic culpa unde incidunt assumenda alias eius fugit eum, non quo aperiam iste adipisci impedit facere, necessitatibus neque! Reprehenderit!</p>
                 </div>
                 <div class="col s6 bor">
-                    <h2>Heiko</h2>
-                    <img class="responsive-img" src="img/Heiko.jpg" alt="">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque iste dolore dicta repellat, eius maiores perferendis eaque facilis nihil ducimus sint quas inventore rem quia placeat possimus. Enim, eveniet! Voluptate.</p>
+                    <h2 class="play">Heiko</h2>
+                    <img class="responsive-img" src="img/Heiko.jpg" alt="" onmouseover="changeimage2(1,this)" onmouseout="changeimage2(2,this)">
+                    <p class="josefin">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque iste dolore dicta repellat, eius maiores perferendis eaque facilis nihil ducimus sint quas inventore rem quia placeat possimus. Enim, eveniet! Voluptate.</p>
                 </div>
             </div>
         </div>
@@ -73,7 +83,7 @@
         </div>
 
         
-        <footer class="page-footer purple darken-2 foo">
+        <footer class="page-footer purple darken-2 foo saira">
             <div class="container">
                 <div class="row valign-wrapper">
                     <div class="col s6">

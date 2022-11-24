@@ -3,6 +3,20 @@
     !important après une fonction css pour la faire passer en priorité
 }
 */
+
+/*Google Fonts*/
+.josefin {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.play {
+    font-family: 'Play', sans-serif;
+}
+
+.saira {
+    font-family: 'Saira Condensed', sans-serif;
+}
+
 #rain{
     position: absolute;
     height: 100%;
@@ -30,4 +44,10 @@
 
 .filter{
     filter: grayscale(100%);
+}
+
+#animal{
+    position: absolute;
+    right: -50%;
+    width: 50%;
 }

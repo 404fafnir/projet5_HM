@@ -17,9 +17,11 @@ $(document).ready(function(){
 
 });
 
+/*Easter Egg Saddy + Happy*/
+
 var typedword = '';
 var theword = 'saddy';
-var thesecondword = 'happy'
+var thesecondword = 'happy';
 
 window.addEventListener('keypress',
     function (e) {
@@ -39,10 +41,44 @@ window.addEventListener('keypress',
 );
 
 
-/*
-setInterval(function(){
-    next();
-},3000);
-*/
+/*Easter Egg Loutre*/
+
+var typedword2 = '';
+var loutre = 'fish';
+
+window.addEventListener('keypress',
+    function (e) {
+       typedword2 += String.fromCharCode(e.which);
+        if (typedword2.length > loutre.length){
+            typedword2 = typedword2.slice(1);
+        }
+        if (typedword2 == loutre){
+            $('#animal').show();
+            $('#animal').animate({
+                right: '100%'
+            }, 5000);
+            
+        }
+    }
+);
+
+/* Easter Egg Hover Image */
+function changeimage1(x,image){
+    if(x==1){
+        image.src = "../img/MaxenceFunny.jpg";
+    }
+    if(x==2){
+        image.src = "../img/Maxence.jpg";
+    }
+}
+
+function changeimage2(x,image){
+    if(x==1){
+        image.src = "../img/HeikoFunny.jpg";
+    }
+    if(x==2){
+        image.src = "../img/Heiko.jpg";
+    }
+}
 
 new WOW().init();
