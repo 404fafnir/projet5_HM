@@ -64,19 +64,19 @@ window.addEventListener('keypress',
 /* Easter Egg Hover Image */
 function changeimage1(x,image){
     if(x==1){
-        image.src = "../img/MaxenceFunny.jpg";
+        image.src = "img/MaxenceFunny.jpg";
     }
     if(x==2){
-        image.src = "../img/Maxence.png";
+        image.src = "img/Maxence.png";
     }
 }
 
 function changeimage2(x,image){
     if(x==1){
-        image.src = "../img/HeikoFunny.jpg";
+        image.src = "img/HeikoFunny.jpg";
     }
     if(x==2){
-        image.src = "../img/Heiko.jpg";
+        image.src = "img/Heiko.jpg";
     }
 }
 
