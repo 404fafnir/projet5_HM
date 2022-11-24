@@ -57,7 +57,6 @@ window.addEventListener('keypress',
             $('#animal').animate({
                 right: '100%'
             }, 5000);
-            
         }
     }
 );
