@@ -80,4 +80,10 @@ function changeimage2(x,image){
     }
 }
 
-new WOW().init();
+/* Easter Egg*/
+
+document.getElementById("mh").addEventListener('click', function(e){
+    e.preventDefault();
+    alert('On peut avoir un point en plus ?');
+    return false;
+});
